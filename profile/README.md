@@ -1,69 +1,81 @@
 # SwiftCircuit
 
-> Making precision control and instrumentation accessible to everyone.
+<p align="center">
+  <strong>Open-Source Hardware for Control, Sensing, Power, and Embedded Systems</strong>
+</p>
 
-SwiftCircuit is a non-profit open-source initiative focused on developing high-precision control systems and instrumentation that anyone can build, modify, and improve. We believe that advanced control systems shouldn't be locked behind expensive proprietary solutions.
+<p align="center">
+  <a href="LICENSE_HARDWARE"><img src="https://img.shields.io/badge/Hardware%20License-CERN--OHL--S%20v2-blueviolet" alt="Hardware License: CERN-OHL-S v2"></a>
+  <a href="LICENSE_SOFTWARE"><img src="https://img.shields.io/badge/Software%20License-MIT-blue" alt="Software License: MIT"></a>
+  <a href="https://github.com/SwiftCircuit/SwiftCircuit/discussions"><img src="https://img.shields.io/github/discussions/SwiftCircuit/SwiftCircuit" alt="GitHub Discussions"></a> <a href="https://github.com/sponsors/YourGitHubUsername"><img src="https://img.shields.io/badge/GitHub-Sponsor-ea4aaa" alt="GitHub Sponsor"></a> <a href="YOUR_TINDIE_STORE_URL"><img src="https://img.shields.io/badge/Tindie-Store-green" alt="Tindie Store"></a>
+  <a href="YOUR_WEBSITE_URL"><img src="https://img.shields.io/badge/Website-swiftcircuit.org-informational" alt="Website"></a> </p>
 
-## What We Do
+---
 
-We develop and maintain open-source hardware projects focusing on:
+## About SwiftCircuit
 
-- Precision motor control systems
-- High-accuracy measurement instruments
-- Modular control platforms
-- Educational resources and documentation
+SwiftCircuit is a **non-profit, open-source initiative** dedicated to making high-precision control, sensing, power management, and embedded systems accessible to everyone. We develop robust, practical hardware modules and tools that anyone can build, modify, and improve.
 
-Our projects emphasize practical implementations, detailed documentation, and real-world reliability. We're not just sharing designs - we're building a community of makers and engineers who can learn from and build upon each other's work.
+We believe advanced hardware shouldn't be locked behind expensive proprietary solutions. Our goal is to empower makers, engineers, students, and researchers by providing high-quality, well-documented, open designs.
 
-## Current Initiatives
+## What We Offer
 
-### Learning Through Hardware
-We're developing a series of educational boards specifically designed to demonstrate real-world electronic challenges and solutions. These boards help engineering students understand concepts like:
+We focus on developing and maintaining open-source hardware and software projects, including:
 
-- Ground bounce and poor grounding effects
-- Power supply noise and filtering
-- Signal integrity in high-speed designs
-- EMI/EMC practical considerations
-- Thermal management challenges
+* **🔌 Open Hardware Modules:** Cost-effective, easy-to-use breakout boards and modules for cutting-edge sensors (ToF, IMU, etc.), data converters (ADCs/DACs), power management ICs, and interface components.
+* **🛠️ Precision Tools & Systems:** Complete open-source solutions like high-performance motor controllers (e.g., DCServo AE), arbitrary waveform generators (e.g., OpenWave), versatile power supplies, and application-specific embedded systems (e.g., rocket flight computers).
+* **🎓 Educational Resources:** Hardware demonstration boards and accompanying resources designed to teach practical, real-world electronics concepts often missed in traditional curricula (grounding, noise, signal integrity, etc.).
 
-Each board comes with comprehensive documentation and lab exercises, making them perfect for university-level electronics education.
+**Our designs emphasize:**
 
-### Open Source Modules
-We're creating cost-effective, open-source modules for cutting-edge sensors and ICs that are typically hard to access or expensive to prototype with. Current focus includes:
-
-- Time-of-Flight sensors (VL53L8CX, etc.)
-- Precision ADCs and DACs
-- Advanced IMU configurations
-- Signal conditioning circuits
-
-Our modules emphasize practical design, easy integration, and complete documentation.
+* ✅ **Practicality & Robustness:** Focused on real-world reliability and usability.
+* 📚 **Clear Documentation:** Comprehensive guides, schematics, and design insights.
+* 👐 **Accessibility:** Using readily available components where possible.
+* 🔓 **Openness:** Permissive licenses (CERN-OHL-S v2 for hardware, MIT for software).
 
 ## Featured Projects
 
-### DCServo AE
-Transform any brushed DC motor into a high-precision smart servo with absolute encoding. Perfect for robotics, CNC applications, and precision automation.
+Here are a few examples of our work:
 
-### OpenWave
-A precision arbitrary waveform generator designed for system identification and control system analysis. Delivers exceptional signal quality up to 500 kHz with 80 dB SNR.
+| Project                                     | Description                                                                                 | Status      |
+| :------------------------------------------ | :------------------------------------------------------------------------------------------ | :---------- |
+| **[DCServo AE][dcservo-link]** | Turn brushed DC motors into high-precision smart servos with absolute encoding.             | `Stable`    |
+| **[OpenWave][openwave-link]** | Precision arbitrary waveform generator (500 kHz, 80 dB SNR) for system analysis.            | `Stable`    |
+| **[Versatile Power Module][power-link]** | High-efficiency, configurable buck/boost power supply module.                               | `Active Dev`|
+| **[Apollo Jr. Flight Comp][flightcomp-link]** | Open-source flight computer for model rockets with data logging and pyro controls.        | `Active Dev`|
+| **[Sensor Breakout (XYZ)][sensor-link]** | Easy-to-use breakout board for the advanced Sensor XYZ IC.                                  | `Planned`   |
 
-## Community Focus
+[dcservo-link]: YOUR_WEBSITE_URL/projects/dcservo-ae/
+[openwave-link]: YOUR_WEBSITE_URL/projects/openwave/ [power-link]: YOUR_WEBSITE_URL/projects/power-module/ [flightcomp-link]: YOUR_WEBSITE_URL/projects/flight-computer/ [sensor-link]: YOUR_WEBSITE_URL/projects/sensor-xyz/ ➡️ **[Explore all our projects on the SwiftCircuit Website!][projects-page-link]** ⬅️
+[projects-page-link]: YOUR_WEBSITE_URL/projects/ ## Get Involved
 
-While we maintain high engineering standards, we keep our communication and documentation approachable and practical. No corporate speak, no unnecessary complexity - just clear, detailed information that helps you understand and build upon our work.
+We welcome community involvement! Here’s how you can participate:
 
-## Get Involved
+* **Use Our Designs:** Download KiCad files, firmware, and documentation from project repositories (linked via our [website][projects-page-link]). Build them, integrate them, learn from them!
+* **Contribute:**
+    * Report bugs or suggest features via [GitHub Issues](https://github.com/SwiftCircuit/issues). * Submit improvements (code, hardware designs, documentation) via Pull Requests.
+    * Review existing PRs and participate in design discussions.
+* **Connect:** Join the conversation, ask questions, and share your projects using SwiftCircuit hardware on [GitHub Discussions](https://github.com/SwiftCircuit/discussions). ## Support Us
 
-- **Use our designs**: All projects include complete source files and documentation
-- **Contribute**: Help improve existing projects or propose new ones
-- **Learn**: Detailed documentation and design insights for every project
-- **Connect**: Join our community of makers and engineers
+As a non-profit initiative, your support helps us cover prototyping costs, acquire components, and dedicate time to developing new open-source hardware. You can support SwiftCircuit by:
 
-## Support Open Source
+* **⭐ Purchasing Hardware:** Buying kits or assembled boards from our **[Tindie Store][tindie-link]** directly funds future development.
+* **❤️ Contributing:** Your time and expertise in design, coding, and documentation are invaluable.
+* **💸 Sponsoring:** Consider supporting us via **[GitHub Sponsors][sponsor-link]** (if enabled).
 
-SwiftCircuit operates as a non-profit organization. All our work is freely available under open-source licenses, typically:
-- Hardware: CERN Open Hardware License
-- Software: MIT License
+[tindie-link]: YOUR_TINDIE_STORE_URL [sponsor-link]: https://github.com/sponsors/YourGitHubUsername ## Licensing
+
+Our work is released under permissive open-source licenses:
+
+* **Hardware:** Primarily [CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](https://cern-ohl.web.cern.ch/cern-ohl-s-v2)
+* **Software/Firmware:** Primarily [MIT License](https://opensource.org/licenses/MIT)
+* **Documentation:** Typically [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Please refer to the specific `LICENSE` file within each project repository for definitive details.
 
 ## Links
 
-- GitHub: [github.com/SwiftCircuit](https://github.com/SwiftCircuit)
-- Documentation: WIP
+* **Website:** [YOUR_WEBSITE_URL](YOUR_WEBSITE_URL) * **GitHub Organization:** [github.com/SwiftCircuit](https://github.com/SwiftCircuit)
+* **Tindie Store:** [YOUR_TINDIE_STORE_URL](YOUR_TINDIE_STORE_URL) ---
+
+*Making precision control and instrumentation accessible to everyone.*
