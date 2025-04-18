@@ -52,7 +52,7 @@ We welcome community involvement! Here’s how you can participate:
 * **Contribute:**
     * Report bugs or suggest features via [GitHub Issues](https://github.com/SwiftCircuits/issues). * Submit improvements (code, hardware designs, documentation) via Pull Requests.
     * Review existing PRs and participate in design discussions.
-* **Connect:** Join the conversation, ask questions, and share your projects using SwiftCircuit hardware on [GitHub Discussions](https://github.com/SwiftCircuits/discussions). ## Support Us
+* **Connect:** Join the conversation, ask questions, and share your projects using SwiftCircuit hardware on [GitHub Discussions](https://github.com/SwiftCircuits/discussions).
 
 As a non-profit initiative, your support helps us cover prototyping costs, acquire components, and dedicate time to developing new open-source hardware. You can support SwiftCircuit by:
 
