@@ -8,7 +8,7 @@
   <a href="LICENSE_HARDWARE"><img src="https://img.shields.io/badge/Hardware%20License-CERN--OHL--S%20v2-blueviolet" alt="Hardware License: CERN-OHL-S v2"></a>
   <a href="LICENSE_SOFTWARE"><img src="https://img.shields.io/badge/Software%20License-MIT-blue" alt="Software License: MIT"></a>
   <a href="https://github.com/SwiftCircuit/SwiftCircuit/discussions"><img src="https://img.shields.io/github/discussions/SwiftCircuit/SwiftCircuit" alt="GitHub Discussions"></a> <a href="https://github.com/sponsors/YourGitHubUsername"><img src="https://img.shields.io/badge/GitHub-Sponsor-ea4aaa" alt="GitHub Sponsor"></a> <a href="YOUR_TINDIE_STORE_URL"><img src="https://img.shields.io/badge/Tindie-Store-green" alt="Tindie Store"></a>
-  <a href="YOUR_WEBSITE_URL"><img src="https://img.shields.io/badge/Website-swiftcircuit.org-informational" alt="Website"></a> </p>
+  <a href="http://swiftcircuits.eu/"><img src="https://img.shields.io/badge/Website-swiftcircuits.eu-informational" alt="Website"></a> </p>
 
 ---
 
@@ -45,25 +45,20 @@ Here are a few examples of our work:
 | **[Apollo Jr. Flight Comp][flightcomp-link]** | Open-source flight computer for model rockets with data logging and pyro controls.        | `Active Dev`|
 | **[Sensor Breakout (XYZ)][sensor-link]** | Easy-to-use breakout board for the advanced Sensor XYZ IC.                                  | `Planned`   |
 
-[dcservo-link]: YOUR_WEBSITE_URL/projects/dcservo-ae/
-[openwave-link]: YOUR_WEBSITE_URL/projects/openwave/ [power-link]: YOUR_WEBSITE_URL/projects/power-module/ [flightcomp-link]: YOUR_WEBSITE_URL/projects/flight-computer/ [sensor-link]: YOUR_WEBSITE_URL/projects/sensor-xyz/ ➡️ **[Explore all our projects on the SwiftCircuit Website!][projects-page-link]** ⬅️
-[projects-page-link]: YOUR_WEBSITE_URL/projects/ ## Get Involved
 
 We welcome community involvement! Here’s how you can participate:
 
-* **Use Our Designs:** Download KiCad files, firmware, and documentation from project repositories (linked via our [website][projects-page-link]). Build them, integrate them, learn from them!
+* **Use Our Designs:** Download KiCad files, firmware, and documentation from project repositories . Build them, integrate them, learn from them!
 * **Contribute:**
-    * Report bugs or suggest features via [GitHub Issues](https://github.com/SwiftCircuit/issues). * Submit improvements (code, hardware designs, documentation) via Pull Requests.
+    * Report bugs or suggest features via [GitHub Issues](https://github.com/SwiftCircuits/issues). * Submit improvements (code, hardware designs, documentation) via Pull Requests.
     * Review existing PRs and participate in design discussions.
-* **Connect:** Join the conversation, ask questions, and share your projects using SwiftCircuit hardware on [GitHub Discussions](https://github.com/SwiftCircuit/discussions). ## Support Us
+* **Connect:** Join the conversation, ask questions, and share your projects using SwiftCircuit hardware on [GitHub Discussions](https://github.com/SwiftCircuits/discussions). ## Support Us
 
 As a non-profit initiative, your support helps us cover prototyping costs, acquire components, and dedicate time to developing new open-source hardware. You can support SwiftCircuit by:
 
-* **⭐ Purchasing Hardware:** Buying kits or assembled boards from our **[Tindie Store][tindie-link]** directly funds future development.
+* **⭐ Purchasing Hardware:** Buying kits or assembled boards from our **Tindie Store** directly funds future development.
 * **❤️ Contributing:** Your time and expertise in design, coding, and documentation are invaluable.
-* **💸 Sponsoring:** Consider supporting us via **[GitHub Sponsors][sponsor-link]** (if enabled).
 
-[tindie-link]: YOUR_TINDIE_STORE_URL [sponsor-link]: https://github.com/sponsors/YourGitHubUsername ## Licensing
 
 Our work is released under permissive open-source licenses:
 
@@ -75,7 +70,6 @@ Please refer to the specific `LICENSE` file within each project repository for d
 
 ## Links
 
-* **Website:** [YOUR_WEBSITE_URL](YOUR_WEBSITE_URL) * **GitHub Organization:** [github.com/SwiftCircuit](https://github.com/SwiftCircuit)
-* **Tindie Store:** [YOUR_TINDIE_STORE_URL](YOUR_TINDIE_STORE_URL) ---
+* **Website:** [http://swiftcircuits.eu/](http://swiftcircuits.eu/) * **GitHub Organization:** [github.com/SwiftCircuits](https://github.com/SwiftCircuits)
 
 *Making precision control and instrumentation accessible to everyone.*
